@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bead Pattern Tools - Open Source Resources for Pixel Art & Bead Crafting</title>
-    <meta name="description" content="A curated collection of open-source tools and resources for creating bead patterns, pixel art, and cross-stitch designs.">
+    <title>Bead Pattern Tools - Resources for Perler Beads, Cross-Stitch & Pixel Art</title>
+    <meta name="description" content="A complete guide to bead pattern creation: tools, brand comparisons, beginner tips, and community resources for Perler, Hama, and Artkal bead crafting.">
     <style>
         :root {
             --bg: #fafafa;
@@ -34,10 +34,11 @@
         }
         h2 {
             font-size: 1.25rem;
-            margin: 2rem 0 1rem;
+            margin: 2.5rem 0 1rem;
             padding-bottom: 0.5rem;
             border-bottom: 1px solid var(--border);
         }
+        h3 { font-size: 1.05rem; margin-bottom: 0.25rem; }
         .card {
             background: var(--card-bg);
             border: 1px solid var(--border);
@@ -47,7 +48,6 @@
             transition: box-shadow 0.2s;
         }
         .card:hover { box-shadow: 0 2px 12px rgba(0,0,0,0.06); }
-        .card h3 { font-size: 1.05rem; margin-bottom: 0.25rem; }
         .card h3 a {
             color: var(--text);
             text-decoration: none;
@@ -65,6 +65,58 @@
             margin-top: 0.5rem;
             margin-right: 0.3rem;
         }
+        .prose { color: var(--muted); font-size: 0.95rem; margin-bottom: 1rem; }
+        .prose a { color: var(--accent); text-decoration: none; }
+        .prose a:hover { text-decoration: underline; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9rem;
+            margin: 1rem 0;
+        }
+        th, td {
+            text-align: left;
+            padding: 0.6rem 0.8rem;
+            border-bottom: 1px solid var(--border);
+        }
+        th { font-weight: 600; font-size: 0.82rem; text-transform: uppercase; color: var(--muted); letter-spacing: 0.04em; }
+        .steps { counter-reset: step; list-style: none; padding: 0; }
+        .steps li {
+            counter-increment: step;
+            padding: 0.6rem 0 0.6rem 2.5rem;
+            position: relative;
+            color: var(--muted);
+            font-size: 0.95rem;
+        }
+        .steps li::before {
+            content: counter(step);
+            position: absolute;
+            left: 0;
+            top: 0.55rem;
+            width: 1.7rem;
+            height: 1.7rem;
+            background: var(--accent);
+            color: #fff;
+            border-radius: 50%;
+            font-size: 0.8rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        details {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 1rem 1.5rem;
+            margin-bottom: 0.75rem;
+        }
+        details summary {
+            font-weight: 600;
+            cursor: pointer;
+            font-size: 0.95rem;
+        }
+        details p { color: var(--muted); font-size: 0.92rem; margin-top: 0.5rem; }
         footer {
             margin-top: 3rem;
             padding-top: 1.5rem;
@@ -77,20 +129,123 @@
 <body>
     <div class="container">
         <h1>Bead Pattern Tools</h1>
-        <p class="subtitle">A curated list of tools and resources for creating bead patterns, pixel art, and cross-stitch designs.</p>
+        <p class="subtitle">A complete guide to bead pattern creation &mdash; tools, brand comparisons, tips, and community resources.</p>
 
-        <h2>Online Tools</h2>
+        <!-- Recommended Tool -->
+        <h2>Recommended Pattern Generator</h2>
 
         <div class="card">
             <h3><a href="https://makebead.com/" target="_blank" rel="noopener">MakeBead</a></h3>
-            <p>Free online tool that converts any image into bead patterns, cross-stitch charts, and pixel art grids. Supports Perler, Hama, and Artkal color palettes with real-time preview and export options.</p>
+            <p>Free online tool that converts any image into bead patterns, cross-stitch charts, and pixel art grids. Supports Perler, Hama, and Artkal color palettes with real-time preview, bead counting, and multiple export formats.</p>
             <span class="tag">Image to Pattern</span>
             <span class="tag">Perler Beads</span>
             <span class="tag">Cross-Stitch</span>
+            <span class="tag">Pixel Art</span>
             <span class="tag">Free</span>
         </div>
 
-        <h2>Color Palettes & References</h2>
+        <!-- Getting Started Guide -->
+        <h2>Getting Started with Bead Patterns</h2>
+
+        <p class="prose">New to bead art? Here's the basic workflow to go from an image to a finished bead creation:</p>
+
+        <ol class="steps">
+            <li>Choose a source image &mdash; simple designs with fewer colors work best for beginners. Game sprites, logos, and cartoon characters are popular starting points.</li>
+            <li>Generate a pattern using a <a href="https://makebead.com/">pattern generator tool</a>. Upload your image, set the grid size (start with 29&times;29 for a single pegboard), and let the tool map colors to available bead colors.</li>
+            <li>Review the bead count &mdash; the tool will tell you exactly how many beads of each color you need. Buy beads accordingly to avoid running short mid-project.</li>
+            <li>Place beads on the pegboard following the pattern grid. Work row by row from one corner to stay organized.</li>
+            <li>Iron carefully with parchment paper on medium heat. Press evenly for 10&ndash;15 seconds, let cool under a heavy book to prevent warping.</li>
+        </ol>
+
+        <!-- Brand Comparison -->
+        <h2>Bead Brand Comparison</h2>
+
+        <p class="prose">The three major fuse bead brands each have different strengths. Tools like <a href="https://makebead.com/">MakeBead</a> support all three palettes, so you can switch between brands easily.</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Brand</th>
+                    <th>Colors</th>
+                    <th>Size</th>
+                    <th>Best For</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Perler</strong></td>
+                    <td>~70</td>
+                    <td>5 mm (Midi)</td>
+                    <td>Widest availability, great starter brand</td>
+                </tr>
+                <tr>
+                    <td><strong>Hama</strong></td>
+                    <td>~70</td>
+                    <td>5 mm (Midi)</td>
+                    <td>Slightly softer melt, popular in Europe</td>
+                </tr>
+                <tr>
+                    <td><strong>Artkal</strong></td>
+                    <td>~160</td>
+                    <td>5 mm / 2.6 mm</td>
+                    <td>Largest color range, mini size for detail</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Tips -->
+        <h2>Tips for Better Results</h2>
+
+        <div class="card">
+            <h3>Reduce Colors Wisely</h3>
+            <p>Photos have thousands of colors, but a typical bead palette has 50&ndash;160. Use a tool that maps to real bead colors (not just generic RGB quantization) for the most accurate results. <a href="https://makebead.com/" style="color: var(--accent); text-decoration: none;">MakeBead's palette-aware algorithm</a> handles this automatically.</p>
+        </div>
+
+        <div class="card">
+            <h3>Start Small</h3>
+            <p>A 29&times;29 grid (one standard pegboard) is perfect for beginners. It takes about 30&ndash;60 minutes and uses ~840 beads. Scale up to multi-board projects once you're comfortable with ironing technique.</p>
+        </div>
+
+        <div class="card">
+            <h3>Use the Tape Method for Large Projects</h3>
+            <p>For multi-board designs, use masking tape on the front of each board before removing beads from the pegs. This lets you align and iron boards together seamlessly.</p>
+        </div>
+
+        <div class="card">
+            <h3>Print Your Pattern</h3>
+            <p>Working from a printed reference with grid lines and color codes is much easier than constantly switching between your screen and pegboard. Export your pattern as a PDF for the best print quality.</p>
+        </div>
+
+        <!-- FAQ -->
+        <h2>Frequently Asked Questions</h2>
+
+        <details>
+            <summary>Can I convert any photo into a bead pattern?</summary>
+            <p>Yes, but results vary by complexity. Portraits and landscapes need more beads to look recognizable. For best results, use a <a href="https://makebead.com/" style="color: var(--accent); text-decoration: none;">pattern converter</a> and increase the grid size for complex images, or reduce the image to its key features first.</p>
+        </details>
+
+        <details>
+            <summary>How many beads do I need for a project?</summary>
+            <p>A single 29&times;29 pegboard uses up to 841 beads. A 4-board layout (58&times;58) uses up to 3,364. Pattern tools with bead counting features show exact quantities per color before you start.</p>
+        </details>
+
+        <details>
+            <summary>Can I mix beads from different brands?</summary>
+            <p>Generally not recommended &mdash; brands melt at slightly different temperatures, which can cause uneven fusing. Stick to one brand per project for best results.</p>
+        </details>
+
+        <details>
+            <summary>What's the difference between bead art and cross-stitch patterns?</summary>
+            <p>Both are grid-based, but cross-stitch uses thread on fabric while bead art uses fuse beads on pegboards. Many tools (including <a href="https://makebead.com/" style="color: var(--accent); text-decoration: none;">MakeBead</a>) can generate patterns for both crafts from the same image.</p>
+        </details>
+
+        <details>
+            <summary>What pegboard size should I buy?</summary>
+            <p>Start with a few standard 29&times;29 square pegboards. They're interlockable, so you can combine them for larger projects. Clear boards are easier to work with since you can see the pattern underneath.</p>
+        </details>
+
+        <!-- Color References -->
+        <h2>Official Color References</h2>
 
         <div class="card">
             <h3><a href="https://www.perler.com/color-chart/" target="_blank" rel="noopener">Perler Official Color Chart</a></h3>
@@ -106,24 +261,25 @@
             <span class="tag">Color Reference</span>
         </div>
 
-        <h2>Inspiration & Communities</h2>
+        <!-- Communities -->
+        <h2>Communities & Inspiration</h2>
 
         <div class="card">
             <h3><a href="https://www.reddit.com/r/beadsprites/" target="_blank" rel="noopener">r/beadsprites</a></h3>
-            <p>Active Reddit community sharing bead sprite creations, tips, and pattern ideas.</p>
+            <p>Active Reddit community with 100k+ members sharing bead sprite creations, tips, and pattern ideas.</p>
             <span class="tag">Reddit</span>
             <span class="tag">Community</span>
         </div>
 
         <div class="card">
             <h3><a href="https://opengameart.org/" target="_blank" rel="noopener">OpenGameArt</a></h3>
-            <p>Free game art assets including pixel sprites — a treasure trove for bead pattern inspiration.</p>
+            <p>Free game art assets including pixel sprites &mdash; a treasure trove for bead pattern inspiration.</p>
             <span class="tag">Free Assets</span>
             <span class="tag">Sprites</span>
         </div>
 
         <footer>
-            <p>This page is maintained as an open resource. Contributions welcome via pull request.</p>
+            <p>This page is maintained as an open resource for the bead crafting community. Contributions welcome via pull request.</p>
         </footer>
     </div>
 </body>
