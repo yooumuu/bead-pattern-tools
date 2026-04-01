@@ -3,8 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bead Pattern Tools - Resources for Perler Beads, Cross-Stitch & Pixel Art</title>
-    <meta name="description" content="A complete guide to bead pattern creation: tools, brand comparisons, beginner tips, and community resources for Perler, Hama, and Artkal bead crafting.">
+    <title>Bead Pattern Maker: Convert Images to Perler, Hama & Artkal Patterns (Free)</title>
+    <meta name="description" content="Free guide to creating bead patterns from images. Compare Perler vs Hama vs Artkal beads, learn ironing techniques, grid sizing tips, and use the best free bead pattern generator online.">
+    <meta name="keywords" content="bead pattern maker, perler bead pattern generator, image to bead pattern, hama bead pattern, artkal bead pattern, cross stitch pattern generator, pixel art grid, fuse bead template, bead sprite maker">
+    <link rel="canonical" href="https://yooumuu.github.io/bead-pattern-tools/">
+    <meta property="og:title" content="Bead Pattern Maker: Free Image-to-Pattern Guide & Tools">
+    <meta property="og:description" content="Everything you need to convert images into bead patterns. Brand comparison, sizing guide, ironing tips, and the best free pattern generator.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://yooumuu.github.io/bead-pattern-tools/">
+
+    <!-- FAQ Structured Data for Google Rich Snippets -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "How do I convert a photo into a bead pattern?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Upload your image to a bead pattern generator like MakeBead (makebead.com). Set your desired grid size (29×29 for a single pegboard), choose your bead brand palette (Perler, Hama, or Artkal), and the tool will automatically map each pixel to the closest available bead color. You can then export the pattern as a PDF or image with color codes and bead counts."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the best free bead pattern maker?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "MakeBead (makebead.com) is a popular free online bead pattern generator. It supports Perler, Hama, and Artkal color palettes, provides real-time preview, automatic bead counting, and exports patterns in multiple formats including PDF and PNG with grid lines."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How many beads do I need for a project?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "A single standard pegboard (29×29) uses up to 841 beads. A 2×2 board layout (58×58) uses up to 3,364 beads. A 3×3 layout (87×87) can use over 7,500 beads. Use a pattern generator with bead counting to get exact per-color quantities before buying."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the difference between Perler, Hama, and Artkal beads?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Perler offers ~70 colors in 5mm size and is widely available in North America. Hama also has ~70 colors in 5mm with a slightly softer melt, popular in Europe. Artkal leads with ~160 colors and offers both 5mm and 2.6mm mini sizes for finer detail. Do not mix brands in one project as they melt at different temperatures."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can I make cross-stitch patterns from the same image?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Both bead art and cross-stitch are grid-based crafts. Tools like MakeBead can generate both bead patterns and cross-stitch charts from a single uploaded image, with appropriate color mapping for each craft."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What size grid should beginners start with?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Start with 29×29 (one standard pegboard). It takes 30-60 minutes, uses about 840 beads, and is manageable for learning ironing technique. Once comfortable, scale up to multi-board projects like 58×58 or larger."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How do I iron bead art without warping?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Place parchment paper over your beads, iron on medium heat with gentle circular motions for 10-15 seconds until beads just start to fuse. Immediately place the piece under a heavy flat object (like a book) while cooling. For both-side ironing, flip and repeat. The tape method helps prevent bead displacement during ironing."
+                }
+            }
+        ]
+    }
+    </script>
+
+    <!-- Article Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Bead Pattern Maker: Complete Guide to Converting Images into Bead Art",
+        "description": "Learn how to convert any image into a bead pattern for Perler, Hama, or Artkal beads. Includes brand comparison, sizing guide, ironing techniques, and recommended tools.",
+        "author": {
+            "@type": "Organization",
+            "name": "Bead Pattern Tools"
+        },
+        "datePublished": "2025-12-01",
+        "dateModified": "2026-03-28"
+    }
+    </script>
+
     <style>
         :root {
             --bg: #fafafa;
@@ -68,6 +157,16 @@
         .prose { color: var(--muted); font-size: 0.95rem; margin-bottom: 1rem; }
         .prose a { color: var(--accent); text-decoration: none; }
         .prose a:hover { text-decoration: underline; }
+        .highlight-box {
+            background: linear-gradient(135deg, #fff5f7, #fff);
+            border: 1px solid #fecdd3;
+            border-left: 4px solid var(--accent);
+            border-radius: 8px;
+            padding: 1.25rem 1.5rem;
+            margin: 1.5rem 0;
+        }
+        .highlight-box p { color: var(--muted); font-size: 0.92rem; }
+        .highlight-box strong { color: var(--text); }
         table {
             width: 100%;
             border-collapse: collapse;
@@ -117,6 +216,22 @@
             font-size: 0.95rem;
         }
         details p { color: var(--muted); font-size: 0.92rem; margin-top: 0.5rem; }
+        .size-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 0.75rem;
+            margin: 1rem 0;
+        }
+        .size-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1rem;
+            text-align: center;
+        }
+        .size-card .size { font-size: 1.5rem; font-weight: 700; color: var(--accent); }
+        .size-card .label { font-size: 0.82rem; color: var(--muted); margin-top: 0.25rem; }
+        .size-card .beads { font-size: 0.85rem; color: var(--text); font-weight: 600; margin-top: 0.4rem; }
         footer {
             margin-top: 3rem;
             padding-top: 1.5rem;
@@ -128,158 +243,267 @@
 </head>
 <body>
     <div class="container">
-        <h1>Bead Pattern Tools</h1>
-        <p class="subtitle">A complete guide to bead pattern creation &mdash; tools, brand comparisons, tips, and community resources.</p>
+        <h1>Bead Pattern Maker: The Complete Guide</h1>
+        <p class="subtitle">Everything you need to convert images into bead patterns for Perler, Hama, and Artkal beads &mdash; from choosing a tool to ironing your finished piece.</p>
 
         <!-- Recommended Tool -->
-        <h2>Recommended Pattern Generator</h2>
+        <h2>Best Free Bead Pattern Generator</h2>
 
         <div class="card">
-            <h3><a href="https://makebead.com/" target="_blank" rel="noopener">MakeBead</a></h3>
-            <p>Free online tool that converts any image into bead patterns, cross-stitch charts, and pixel art grids. Supports Perler, Hama, and Artkal color palettes with real-time preview, bead counting, and multiple export formats.</p>
+            <h3><a href="https://makebead.com/" target="_blank" rel="noopener">MakeBead &mdash; Image to Bead Pattern Converter</a></h3>
+            <p>Free online bead pattern maker that converts any image into pixel-perfect bead patterns. Upload a photo and get an instant pattern with real bead colors from Perler, Hama, or Artkal palettes. Features include real-time preview, automatic bead counting by color, grid overlay, and export to PDF/PNG.</p>
             <span class="tag">Image to Pattern</span>
             <span class="tag">Perler Beads</span>
+            <span class="tag">Hama Beads</span>
+            <span class="tag">Artkal</span>
             <span class="tag">Cross-Stitch</span>
             <span class="tag">Pixel Art</span>
-            <span class="tag">Free</span>
+            <span class="tag">100% Free</span>
         </div>
 
-        <!-- Getting Started Guide -->
-        <h2>Getting Started with Bead Patterns</h2>
+        <!-- How it works -->
+        <h2>How to Convert an Image to a Bead Pattern</h2>
 
-        <p class="prose">New to bead art? Here's the basic workflow to go from an image to a finished bead creation:</p>
+        <p class="prose">Whether you want to recreate a game sprite, turn a pet photo into pixel art, or design a custom coaster, the process is the same. Here's a step-by-step walkthrough:</p>
 
         <ol class="steps">
-            <li>Choose a source image &mdash; simple designs with fewer colors work best for beginners. Game sprites, logos, and cartoon characters are popular starting points.</li>
-            <li>Generate a pattern using a <a href="https://makebead.com/">pattern generator tool</a>. Upload your image, set the grid size (start with 29&times;29 for a single pegboard), and let the tool map colors to available bead colors.</li>
-            <li>Review the bead count &mdash; the tool will tell you exactly how many beads of each color you need. Buy beads accordingly to avoid running short mid-project.</li>
-            <li>Place beads on the pegboard following the pattern grid. Work row by row from one corner to stay organized.</li>
-            <li>Iron carefully with parchment paper on medium heat. Press evenly for 10&ndash;15 seconds, let cool under a heavy book to prevent warping.</li>
+            <li><strong>Pick your image.</strong> Simple designs with bold outlines and fewer colors (game sprites, logos, cartoon characters) produce the best bead patterns. High-contrast images work better than soft gradients.</li>
+            <li><strong>Upload to a <a href="https://makebead.com/">bead pattern generator</a>.</strong> The tool analyzes your image and maps every pixel to the closest matching bead color from your chosen brand palette.</li>
+            <li><strong>Set the grid size.</strong> This determines the final physical size and level of detail. See the size reference chart below to choose the right dimensions for your project.</li>
+            <li><strong>Adjust colors.</strong> Review the generated pattern. Reduce the total color count if you want a simpler project, or fine-tune individual color mappings for accuracy.</li>
+            <li><strong>Check the bead count.</strong> Before buying supplies, use the per-color bead count to make a shopping list. This saves money and prevents mid-project supply runs.</li>
+            <li><strong>Export and print.</strong> Download the pattern as a PDF with grid lines and color codes. A printed reference next to your pegboard is much easier than working from a screen.</li>
+            <li><strong>Place, iron, and finish.</strong> Place beads row by row, iron with parchment paper on medium heat, and cool under a flat weight to prevent warping.</li>
         </ol>
 
-        <!-- Brand Comparison -->
-        <h2>Bead Brand Comparison</h2>
+        <!-- Size Reference -->
+        <h2>Pegboard Size Reference</h2>
 
-        <p class="prose">The three major fuse bead brands each have different strengths. Tools like <a href="https://makebead.com/">MakeBead</a> support all three palettes, so you can switch between brands easily.</p>
+        <p class="prose">Choosing the right grid size is crucial. Larger grids capture more detail but require more time and beads. Here's a quick reference for standard square pegboards:</p>
+
+        <div class="size-grid">
+            <div class="size-card">
+                <div class="size">29&times;29</div>
+                <div class="label">1 Pegboard</div>
+                <div class="beads">~841 beads</div>
+                <div class="label">Best for: beginners, coasters, small sprites</div>
+            </div>
+            <div class="size-card">
+                <div class="size">58&times;58</div>
+                <div class="label">2&times;2 Boards</div>
+                <div class="beads">~3,364 beads</div>
+                <div class="label">Best for: detailed sprites, portraits</div>
+            </div>
+            <div class="size-card">
+                <div class="size">87&times;87</div>
+                <div class="label">3&times;3 Boards</div>
+                <div class="beads">~7,569 beads</div>
+                <div class="label">Best for: wall art, photo recreations</div>
+            </div>
+            <div class="size-card">
+                <div class="size">116&times;116</div>
+                <div class="label">4&times;4 Boards</div>
+                <div class="beads">~13,456 beads</div>
+                <div class="label">Best for: large display pieces</div>
+            </div>
+        </div>
+
+        <div class="highlight-box">
+            <p><strong>Pro tip:</strong> Use <a href="https://makebead.com/" style="color: var(--accent); text-decoration: none;">MakeBead's grid size selector</a> to preview exactly how your image looks at each size before committing to a large project.</p>
+        </div>
+
+        <!-- Brand Comparison -->
+        <h2>Perler vs Hama vs Artkal: Which Beads to Choose?</h2>
+
+        <p class="prose">The three major fuse bead brands are not interchangeable. Each has different color ranges, melting properties, and availability. Here's how they compare:</p>
 
         <table>
             <thead>
                 <tr>
-                    <th>Brand</th>
-                    <th>Colors</th>
-                    <th>Size</th>
-                    <th>Best For</th>
+                    <th>Feature</th>
+                    <th>Perler</th>
+                    <th>Hama</th>
+                    <th>Artkal</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td><strong>Perler</strong></td>
+                    <td><strong>Colors Available</strong></td>
                     <td>~70</td>
-                    <td>5 mm (Midi)</td>
-                    <td>Widest availability, great starter brand</td>
-                </tr>
-                <tr>
-                    <td><strong>Hama</strong></td>
                     <td>~70</td>
-                    <td>5 mm (Midi)</td>
-                    <td>Slightly softer melt, popular in Europe</td>
-                </tr>
-                <tr>
-                    <td><strong>Artkal</strong></td>
                     <td>~160</td>
-                    <td>5 mm / 2.6 mm</td>
-                    <td>Largest color range, mini size for detail</td>
+                </tr>
+                <tr>
+                    <td><strong>Bead Sizes</strong></td>
+                    <td>5 mm (Midi)</td>
+                    <td>5 mm (Midi), 10 mm (Maxi), 2.5 mm (Mini)</td>
+                    <td>5 mm (S series), 2.6 mm (C/R series)</td>
+                </tr>
+                <tr>
+                    <td><strong>Melting Temp</strong></td>
+                    <td>Medium</td>
+                    <td>Slightly lower</td>
+                    <td>Medium-high</td>
+                </tr>
+                <tr>
+                    <td><strong>Best Region</strong></td>
+                    <td>North America</td>
+                    <td>Europe</td>
+                    <td>Worldwide (online)</td>
+                </tr>
+                <tr>
+                    <td><strong>Price Range</strong></td>
+                    <td>$$</td>
+                    <td>$$</td>
+                    <td>$&ndash;$$</td>
+                </tr>
+                <tr>
+                    <td><strong>Best For</strong></td>
+                    <td>Wide availability, consistent quality</td>
+                    <td>Smooth finish, kids' projects</td>
+                    <td>Maximum color accuracy, mini detail work</td>
                 </tr>
             </tbody>
         </table>
 
+        <div class="highlight-box">
+            <p><strong>Important:</strong> Never mix brands in one project &mdash; they melt at different temperatures and will fuse unevenly. A good <a href="https://makebead.com/" style="color: var(--accent); text-decoration: none;">pattern maker</a> lets you switch between brand palettes so your pattern always uses colors you can actually buy.</p>
+        </div>
+
+        <!-- Ironing Guide -->
+        <h2>How to Iron Bead Art (Without Warping)</h2>
+
+        <p class="prose">Ironing is the most nerve-wracking step. Here's the technique that works consistently:</p>
+
+        <ol class="steps">
+            <li><strong>Preheat your iron</strong> to medium heat (no steam). Too hot melts beads flat; too cool leaves gaps.</li>
+            <li><strong>Cover with parchment paper</strong> &mdash; never iron beads directly. Parchment paper lets you see when beads start to fuse without sticking.</li>
+            <li><strong>Iron in gentle circles</strong> for 10&ndash;20 seconds with light, even pressure. You'll see the paper slightly indent where beads are fusing.</li>
+            <li><strong>Check progress</strong> by carefully lifting a corner of the parchment. Beads should be lightly connected but still round, not fully flattened.</li>
+            <li><strong>Cool under weight immediately.</strong> Place a heavy book or cutting board on top while the piece cools. This prevents warping &mdash; the #1 issue for beginners.</li>
+        </ol>
+
+        <div class="highlight-box">
+            <p><strong>The tape method (for large projects):</strong> Before removing beads from pegboards, press masking tape firmly over the front. Peel the entire design off the pegs as one piece. This prevents bead displacement and lets you iron on a flat surface. Essential for multi-board designs.</p>
+        </div>
+
         <!-- Tips -->
-        <h2>Tips for Better Results</h2>
+        <h2>Pro Tips for Better Bead Patterns</h2>
 
         <div class="card">
-            <h3>Reduce Colors Wisely</h3>
-            <p>Photos have thousands of colors, but a typical bead palette has 50&ndash;160. Use a tool that maps to real bead colors (not just generic RGB quantization) for the most accurate results. <a href="https://makebead.com/" style="color: var(--accent); text-decoration: none;">MakeBead's palette-aware algorithm</a> handles this automatically.</p>
+            <h3>Use Real Bead Color Mapping</h3>
+            <p>Generic image pixelizers reduce colors using RGB math, which produces colors that don't match any real bead. Tools built specifically for bead crafting (like <a href="https://makebead.com/" style="color: var(--accent); text-decoration: none;">MakeBead</a>) map to actual brand palettes &mdash; so what you see on screen is what you get in beads.</p>
         </div>
 
         <div class="card">
-            <h3>Start Small</h3>
-            <p>A 29&times;29 grid (one standard pegboard) is perfect for beginners. It takes about 30&ndash;60 minutes and uses ~840 beads. Scale up to multi-board projects once you're comfortable with ironing technique.</p>
+            <h3>Fewer Colors = Better Results for Beginners</h3>
+            <p>Limiting your palette to 8&ndash;15 colors makes the project faster, cheaper, and often more visually striking. Bead art is like pixel art &mdash; constraints create clarity.</p>
         </div>
 
         <div class="card">
-            <h3>Use the Tape Method for Large Projects</h3>
-            <p>For multi-board designs, use masking tape on the front of each board before removing beads from the pegs. This lets you align and iron boards together seamlessly.</p>
+            <h3>Pre-sort Your Beads</h3>
+            <p>Before starting, sort beads into small containers or a bead tray by color. This can cut placement time in half and reduces the frustration of searching through mixed bags.</p>
         </div>
 
         <div class="card">
-            <h3>Print Your Pattern</h3>
-            <p>Working from a printed reference with grid lines and color codes is much easier than constantly switching between your screen and pegboard. Export your pattern as a PDF for the best print quality.</p>
+            <h3>Iron Both Sides for Durability</h3>
+            <p>For pieces that will be handled (coasters, magnets, keychains), iron both sides for a stronger bond. Use the tape method to flip without losing beads.</p>
+        </div>
+
+        <div class="card">
+            <h3>Cross-Stitch from the Same Pattern</h3>
+            <p>Bead patterns are essentially cross-stitch charts. If you enjoy both crafts, you can <a href="https://makebead.com/" style="color: var(--accent); text-decoration: none;">generate one pattern</a> and use it for either medium &mdash; fuse beads for a quick project or cross-stitch for a more detailed fabric piece.</p>
         </div>
 
         <!-- FAQ -->
         <h2>Frequently Asked Questions</h2>
 
         <details>
-            <summary>Can I convert any photo into a bead pattern?</summary>
-            <p>Yes, but results vary by complexity. Portraits and landscapes need more beads to look recognizable. For best results, use a <a href="https://makebead.com/" style="color: var(--accent); text-decoration: none;">pattern converter</a> and increase the grid size for complex images, or reduce the image to its key features first.</p>
+            <summary>How do I convert a photo into a bead pattern?</summary>
+            <p>Upload your image to a <a href="https://makebead.com/" style="color: var(--accent); text-decoration: none;">bead pattern generator</a>. Set your grid size, choose your bead brand palette, and the tool maps each pixel to the closest matching bead color. Export the result as a printable PDF with grid lines, color codes, and bead counts.</p>
+        </details>
+
+        <details>
+            <summary>What is the best free bead pattern maker?</summary>
+            <p><a href="https://makebead.com/" style="color: var(--accent); text-decoration: none;">MakeBead</a> is a free, no-signup-required pattern generator that supports all major bead brands. It provides real-time preview, palette-accurate color mapping, bead counting, and exports to multiple formats.</p>
         </details>
 
         <details>
             <summary>How many beads do I need for a project?</summary>
-            <p>A single 29&times;29 pegboard uses up to 841 beads. A 4-board layout (58&times;58) uses up to 3,364. Pattern tools with bead counting features show exact quantities per color before you start.</p>
+            <p>A single 29&times;29 pegboard uses up to 841 beads. A 2&times;2 layout uses ~3,364, and a 3&times;3 layout ~7,569. Always use a pattern tool with bead counting to get exact per-color quantities before purchasing.</p>
         </details>
 
         <details>
-            <summary>Can I mix beads from different brands?</summary>
-            <p>Generally not recommended &mdash; brands melt at slightly different temperatures, which can cause uneven fusing. Stick to one brand per project for best results.</p>
+            <summary>Can I mix Perler and Hama beads together?</summary>
+            <p>Not recommended. They melt at different temperatures, leading to uneven fusing where some beads over-melt while others barely connect. Stick to one brand per project.</p>
         </details>
 
         <details>
-            <summary>What's the difference between bead art and cross-stitch patterns?</summary>
-            <p>Both are grid-based, but cross-stitch uses thread on fabric while bead art uses fuse beads on pegboards. Many tools (including <a href="https://makebead.com/" style="color: var(--accent); text-decoration: none;">MakeBead</a>) can generate patterns for both crafts from the same image.</p>
+            <summary>What's the difference between bead art and cross-stitch?</summary>
+            <p>Both are grid-based crafts that use the same type of pattern. Bead art uses fuse beads on pegboards (quick, physical result), while cross-stitch uses thread on fabric (slower, textile result). Tools like <a href="https://makebead.com/" style="color: var(--accent); text-decoration: none;">MakeBead</a> can generate patterns for both from a single image.</p>
         </details>
 
         <details>
-            <summary>What pegboard size should I buy?</summary>
-            <p>Start with a few standard 29&times;29 square pegboards. They're interlockable, so you can combine them for larger projects. Clear boards are easier to work with since you can see the pattern underneath.</p>
+            <summary>What pegboard size should beginners buy?</summary>
+            <p>Start with 4&ndash;6 standard 29&times;29 clear square pegboards. They're interlockable for larger projects, and the transparency lets you place a pattern underneath as a guide. Clear boards are easier to work with than colored ones.</p>
+        </details>
+
+        <details>
+            <summary>Why does my bead art warp after ironing?</summary>
+            <p>Warping happens when the piece cools unevenly. Always place your freshly ironed piece under a heavy flat object (book, cutting board) immediately after ironing and leave it for at least 5 minutes. Ironing both sides also reduces warping.</p>
+        </details>
+
+        <details>
+            <summary>Can I make money selling bead art?</summary>
+            <p>Yes, many crafters sell on Etsy, at craft fairs, and local markets. Popular items include coasters, magnets, ornaments, and custom character commissions. Original designs sell better than copyrighted characters due to IP concerns.</p>
         </details>
 
         <!-- Color References -->
-        <h2>Official Color References</h2>
+        <h2>Official Bead Color Charts</h2>
 
         <div class="card">
             <h3><a href="https://www.perler.com/color-chart/" target="_blank" rel="noopener">Perler Official Color Chart</a></h3>
-            <p>Complete color reference for all available Perler bead colors with names and codes.</p>
+            <p>Complete reference for all ~70 Perler bead colors with official names, color codes, and availability status.</p>
             <span class="tag">Perler</span>
             <span class="tag">Color Reference</span>
         </div>
 
         <div class="card">
             <h3><a href="https://www.hamabeads.com/colour-chart" target="_blank" rel="noopener">Hama Colour Chart</a></h3>
-            <p>Official Hama bead color overview. Useful for matching colors across different bead brands.</p>
+            <p>Official Hama bead color overview for Midi, Mini, and Maxi sizes. Useful for cross-referencing with Perler equivalents.</p>
             <span class="tag">Hama</span>
             <span class="tag">Color Reference</span>
         </div>
 
         <!-- Communities -->
-        <h2>Communities & Inspiration</h2>
+        <h2>Bead Art Communities & Free Sprite Resources</h2>
 
         <div class="card">
             <h3><a href="https://www.reddit.com/r/beadsprites/" target="_blank" rel="noopener">r/beadsprites</a></h3>
-            <p>Active Reddit community with 100k+ members sharing bead sprite creations, tips, and pattern ideas.</p>
+            <p>Reddit community with 100k+ members sharing finished bead sprites, pattern requests, ironing tips, and tool recommendations.</p>
             <span class="tag">Reddit</span>
             <span class="tag">Community</span>
+            <span class="tag">100k+ Members</span>
         </div>
 
         <div class="card">
             <h3><a href="https://opengameart.org/" target="_blank" rel="noopener">OpenGameArt</a></h3>
-            <p>Free game art assets including pixel sprites &mdash; a treasure trove for bead pattern inspiration.</p>
+            <p>Free, openly licensed game art including thousands of pixel sprites perfect for bead pattern inspiration. Filter by "pixel art" tag for the best results.</p>
             <span class="tag">Free Assets</span>
+            <span class="tag">CC0 / Open License</span>
             <span class="tag">Sprites</span>
         </div>
 
+        <div class="card">
+            <h3><a href="https://www.reddit.com/r/CrossStitch/" target="_blank" rel="noopener">r/CrossStitch</a></h3>
+            <p>Cross-stitch community sharing patterns and finished projects. Since bead and cross-stitch patterns are interchangeable, this is a great source of design ideas.</p>
+            <span class="tag">Reddit</span>
+            <span class="tag">Cross-Stitch</span>
+            <span class="tag">Patterns</span>
+        </div>
+
         <footer>
-            <p>This page is maintained as an open resource for the bead crafting community. Contributions welcome via pull request.</p>
+            <p>This page is maintained as a free resource for the bead crafting community. Last updated March 2026. Have a suggestion? <a href="https://github.com/yooumuu/bead-pattern-tools/issues" style="color: var(--accent);">Open an issue</a> or submit a pull request.</p>
         </footer>
     </div>
 </body>
